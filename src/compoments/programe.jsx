@@ -42,7 +42,7 @@ export default function ProgramsSlider() {
       </div>
       
       <div className="relative">
-        {/* Mobile and desktop slider */}
+    
         <div className="relative overflow-hidden">
           <div 
             ref={sliderRef}
@@ -70,7 +70,7 @@ export default function ProgramsSlider() {
           </div>
         </div>
         
-        {/* Navigation arrows */}
+      
         <button 
           onClick={prevSlide}
           className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 bg-white rounded-full p-2 shadow-md hover:shadow-lg transition-all z-10"
@@ -84,8 +84,7 @@ export default function ProgramsSlider() {
         >
           <ChevronRight size={20} />
         </button>
-        
-        {/* Dots */}
+       
         <div className="flex justify-center mt-4 gap-2">
           {Array.from({ length: totalSlides }).map((_, index) => (
             <button

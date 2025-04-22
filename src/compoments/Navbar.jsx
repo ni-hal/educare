@@ -6,7 +6,7 @@ import { Phone } from 'lucide-react';
 const Navbar = () => {
   return (
     <nav className="bg-red-800 text-white px-4 py-3 flex items-center justify-between">
-      {/* Logo */}
+ 
       <div className="flex items-center">
         <div className="mr-2">
           <div className="w-6 h-6 rounded-full border-2 border-white flex items-center justify-center">
@@ -18,7 +18,7 @@ const Navbar = () => {
         </Link>
       </div>
 
-      {/* Navigation Links */}
+   
       <div className="hidden md:flex space-x-6">
         <Link href="/about" className="hover:text-gray-300 text-sm">
           About us
@@ -37,7 +37,7 @@ const Navbar = () => {
         </Link>
       </div>
 
-      {/* Contact Info and Button */}
+  
       <div className="flex items-center space-x-4">
         <div className="hidden md:flex items-center">
           <Phone size={16} className="mr-1" />

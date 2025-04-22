@@ -6,7 +6,7 @@ const EducareSection = () => {
   return (
     <section className="max-w-6xl mx-auto p-6 bg-amber-50 rounded-lg my-12">
       <div className="flex flex-col md:flex-row gap-8">
-        {/* Left content area */}
+      
         <div className="flex-1">
           <h1 className="text-3xl font-semibold mb-4">
             The Story of <span className="text-emerald-700">Educare</span>
@@ -36,7 +36,7 @@ const EducareSection = () => {
           </button>
         </div>
         
-        {/* Right image area */}
+
         <div className="flex-1 flex items-center justify-center">
           <div className="relative">
             <div className="w-64 h-64 relative rotate-3 border-8 border-red-800 rounded-lg overflow-hidden">
@@ -61,9 +61,9 @@ const EducareSection = () => {
         </div>
       </div>
       
-      {/* Mission and Vision boxes */}
+    
       <div className="mt-16 grid md:grid-cols-2 gap-8">
-        {/* Mission box */}
+      
         <div className="bg-white p-6 rounded-lg shadow-md relative">
           <div className="absolute -top-6 -left-6 bg-red-100 p-2 rounded-full">
             <div className="bg-white p-2 rounded-full">
@@ -83,7 +83,6 @@ const EducareSection = () => {
           </p>
         </div>
         
-        {/* Vision box */}
         <div className="bg-white p-6 rounded-lg shadow-md relative">
           <div className="absolute -top-6 -left-6 bg-red-100 p-2 rounded-full">
             <Rocket size={64} className="text-red-800" />

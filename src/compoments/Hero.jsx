@@ -115,7 +115,7 @@ const Hero = () => {
                 </div>
             </section>
 
-            {/* Values section */}
+          
             <section className="w-full bg-amber-50 py-4">
                 <div className="max-w-6xl mx-auto px-4">
                     <div className="flex flex-wrap justify-center md:justify-between items-center gap-4 md:gap-0">
@@ -142,11 +142,11 @@ const Hero = () => {
                 </div>
             </section>
 
-            {/* Story section */}
+      
             <section className="w-full bg-white py-12">
                 <div className="max-w-6xl mx-auto px-4">
                     <div className="flex flex-col md:flex-row gap-8">
-                        {/* Left content */}
+                      
                         <div className="w-full md:w-3/5">
                             <h2 className="text-2xl font-medium mb-4">
                                 The Story of <span className="font-bold">Educare</span>
@@ -175,7 +175,7 @@ const Hero = () => {
                            
                         </div>
 
-                        {/* Right content - Stamp images */}
+                     
                         <div className="w-full md:w-2/5 flex justify-center">
 
                         </div>
@@ -183,11 +183,11 @@ const Hero = () => {
                 </div>
             </section>
 
-            {/* Mission and Vision section */}
+       
             <section className="w-full bg-amber-50 py-12">
                 <div className="max-w-6xl mx-auto px-4">
                     <div className="flex flex-col md:flex-row gap-8">
-                        {/* Mission */}
+                    
                         <div className="w-full md:w-1/2 bg-white rounded-lg p-6 relative">
                             <div className="absolute  -bottom-6 -right-6">
                                 <Image src={mision} alt="Book icon" width={80} height={80} />
@@ -199,7 +199,7 @@ const Hero = () => {
                             </p>
                         </div>
 
-                        {/* Vision */}
+                     
                         <div className="w-full md:w-1/2 bg-white rounded-lg p-6 relative">
                             <div className="absolute -bottom-6 -right-6">
                                 <Image src={vison} alt="Decorative element" width={80} height={80} />

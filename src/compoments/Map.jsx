@@ -17,7 +17,7 @@ const Map = () => {
         <>
 
             <div className="max-w-6xl mx-auto px-4 py-12">
-                {/* World Map Section */}
+               
                 <div className="text-center mb-12">
                     <h2 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-8">
                         Prepare Your Child for a World of Opportunities with Educare

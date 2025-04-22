@@ -14,7 +14,7 @@ import ViewAllButton from "@/shared/viewbtn";
 const Masters = () => {
   return (
     <div className="py-12 px-4 md:px-8 lg:px-16 bg-white">
-      {/* Header */}
+    
       <div>
       <div className="flex justify-center items-center mb-6">
         <h2 className="text-2xl md:text-3xl font-semibold text-center flex justify-center md:text-left w-full">
@@ -28,7 +28,7 @@ const Masters = () => {
       </div>
       
 
-      {/* Carousel */}
+   
       <Swiper
         spaceBetween={24}
         pagination={{ clickable: true }}
@@ -43,10 +43,10 @@ const Masters = () => {
        {courses.map((course, index) => (
   <SwiperSlide key={index}>
     <div className="relative w-full max-w-[300px] mx-auto group transition-all duration-300">
-      {/* Shadow Layer */}
+  
       <div className="absolute -bottom-2 -right-2 w-full h-full bg-rose-600 rounded-2xl z-0 rotate-2 group-hover:rotate-0 group-hover:bottom-0 group-hover:right-0 transition-all duration-300 ease-in-out"></div>
 
-      {/* Card */}
+ 
       <div className="relative bg-[#fef7f7] rounded-2xl shadow-md overflow-hidden z-10 group-hover:shadow-xl group-hover:-translate-y-1 transition-all duration-300 ease-in-out">
         <div className="w-full h-40 relative">
           <Image
