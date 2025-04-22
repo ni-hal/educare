@@ -172,24 +172,7 @@ const Hero = () => {
                                 exam, we are here to support their journey.
                             </p>
 
-                            <button className="bg-rose-800 text-white px-4 py-2 rounded-md shadow-md hover:bg-rose-900 transition-colors flex items-center mt-4">
-                                Learn more
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="16"
-                                    height="16"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    strokeWidth="2"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    className="ml-2"
-                                >
-                                    <path d="M5 12h14"></path>
-                                    <path d="m12 5 7 7-7 7"></path>
-                                </svg>
-                            </button>
+                           
                         </div>
 
                         {/* Right content - Stamp images */}
@@ -206,7 +189,7 @@ const Hero = () => {
                     <div className="flex flex-col md:flex-row gap-8">
                         {/* Mission */}
                         <div className="w-full md:w-1/2 bg-white rounded-lg p-6 relative">
-                            <div className="absolute -top-6 -left-6">
+                            <div className="absolute  -bottom-6 -right-6">
                                 <Image src={mision} alt="Book icon" width={80} height={80} />
                             </div>
                             <h3 className="text-xl font-bold mb-4 text-rose-800">Mission</h3>

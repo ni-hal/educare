@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { programs } from '@/app/dummy';
+import ViewAllButton from '@/shared/viewbtn';
 
 export default function ProgramsSlider() {
   const [activeSlide, setActiveSlide] = useState(0);
@@ -37,7 +38,7 @@ export default function ProgramsSlider() {
     <div className="max-w-6xl mx-auto px-4 py-12">
       <div className="flex justify-between items-center mb-8">
         <h2 className="text-2xl font-medium text-gray-800">Programs we offer <span className="font-bold text-gray-900">for Kids</span></h2>
-        <button className="bg-red-700 text-white px-4 py-1 rounded-md text-sm">View All</button>
+        <ViewAllButton/>
       </div>
       
       <div className="relative">
@@ -60,9 +61,7 @@ export default function ProgramsSlider() {
                   </div>
                   
                   <div className="flex justify-between items-end">
-                    <button className={`${program.buttonColor} text-white px-3 py-1 rounded text-xs`}>
-                      Read More →
-                    </button>
+                 <ViewAllButton/>
                     <img src={program.image} alt={program.title} className="w-24 h-24 object-cover" />
                   </div>
                 </div>

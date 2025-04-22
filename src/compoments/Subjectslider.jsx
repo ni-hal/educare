@@ -9,13 +9,17 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 
 import { subjects } from '@/app/dummy';
+import ViewAllButton from '@/shared/viewbtn';
 
 const Subjectslider = () => {
   return (
-    <div className="py-10 bg-[#fcf9f6] text-center">
-    <h2 className="text-3xl font-medium text-[#5e5444] mb-6">
-      Subjects We <span className="font-bold">Teach</span>
-    </h2>
+    <div className=" mx-auto px-4 py-12 bg-[#fcf9f6] text-center">
+    <div className="relative flex items-center justify-center mb-8">
+  <h2 className="text-2xl font-bold text-center ">Subjects We Teach</h2>
+  <div className="absolute right-0 flex items-center space-x-2">
+    <ViewAllButton />
+  </div>
+</div>
   
     <div className="relative max-w-7xl mx-auto">
    

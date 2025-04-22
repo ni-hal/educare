@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
 import { blogPosts } from "@/app/dummy";
+import ViewAllButton from "@/shared/viewbtn";
 
 const BlogSection = () => {
   return (
@@ -9,12 +10,8 @@ const BlogSection = () => {
     <div className="container mx-auto px-4">
       <div className="flex items-center justify-between mb-8">
         <h2 className="text-2xl font-bold">Latest from Our Blog</h2>
-        <Link
-          href="/blog"
-          className="bg-rose-700 text-white text-sm px-4 py-1 rounded-full flex items-center"
-        >
-          View all <ChevronRight className="h-4 w-4 ml-1" />
-        </Link>
+        <ViewAllButton/>
+       
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

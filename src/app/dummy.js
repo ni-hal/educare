@@ -1,7 +1,6 @@
 
-import image  from '../../public/assets/Rectangle 18262 (5).png'
 
-
+"use client";
 
 
 export const faqItems = [
@@ -36,34 +35,34 @@ export const blogPosts = [
     id: "1",
     title: "Top tips for effective home tutoring",
     description: "These practical advice on how students can make the most out of tutoring sessions.",
-    imageUrl: "/placeholder.svg?height=192&width=256",
+    imageUrl: "/assets/blog1.png",
     slug: "effective-home-tutoring",
   },
   {
     id: "2",
     title: "Building a productive study environment",
     description: "Share practical advice on how students can create the ideal setting for learning success.",
-    imageUrl: "/placeholder.svg?height=192&width=256",
+    imageUrl: "/assets/blog2.png",
     slug: "productive-study-environment",
   },
   {
     id: "3",
     title: "5 skills every great tutor should have",
     description: "Outline essential skills for tutors, such as patience, adaptability, subject knowledge.",
-    imageUrl: "/placeholder.svg?height=192&width=256",
+    imageUrl: "/assets/blog3.png",
     slug: "tutor-essential-skills",
   },
   {
     id: "4",
     title: "Setting the best individual tutition",
     description: "Share practical advice on how students can make the most out of tutoring sessions.",
-    imageUrl: "/placeholder.svg?height=192&width=256",
+    imageUrl: "/assets/blog4.png",
     slug: "best-individual-tutition",
   },
 ];
 export const testimonials = [
   {
-    image: "/user1.jpg",
+    image: "/assets/testi1.png",
     name: "Sarah H",
     title: "Accountant",
     message:
@@ -71,14 +70,14 @@ export const testimonials = [
     rating: 5,
   },
   {
-    image: "/user2.jpg",
+    image: "/assets/testi2.png",
     name: "John D",
     title: "Engineer",
     message: "Educare has transformed our son's learning experience!",
     rating: 4,
   },
   {
-    image: "/user2.jpg",
+    image: "/assets/testi3.png",
     name: "John D",
     title: "Engineer",
     message: "Educare has transformed our son's learning experience!",
@@ -125,24 +124,35 @@ export const courses = [
     title: "IELTS Preparation",
     description:
       "Focus on all four sections: Listening, Reading, Writing, and Speaking.",
-    image: "./assets/Rectangle 18262 (5).png",
+    image: '/assets/image1.png',
   },
-  // {
-  //   title: "TOEFL Mastery",
-  //   description:
-  //     "Comprehensive coverage of Reading, Listening, Speaking and Writing sections.",
-  //   image: "./assets/Rectangle 18262 (5).png",
-  // },
-  // {
-  //   title: "PTE Academic Course",
-  //   description:
-  //     "Time-saving strategies and practice tests with instant feedback.",
-  //   image: "./assets/Rectangle 18262 (6).png",
-  // },
-  // {
-  //   title: "Cambridge English (CAE)",
-  //   description:
-  //     "Preparation for high-level English skills in Listening, Speaking, Reading, and Writing.",
-  //   image: "./assets/Rectangle 18262 (7).png",
-  // },
+  {
+    title: "TOEFL Mastery",
+    description:
+      "Comprehensive coverage of Reading, Listening, Speaking and Writing sections.",
+    image: '/assets/image2.png',
+  },
+  {
+    title: "PTE Academic Course",
+    description:
+      "Time-saving strategies and practice tests with instant feedback.",
+    image: '/assets/image3.png',
+  },
+  {
+    title: "Cambridge English (CAE)",
+    description:
+      "Preparation for high-level English skills in Listening, Speaking, Reading, and Writing.",
+    image: '/assets/image4.png',
+  },
+];
+
+export const students = [
+  { src: "/assets/mimg.svg", top: "15%", left: "10%" },
+  { src: "/images/student2.png", top: "20%", left: "25%" },
+  { src: "/images/student3.png", top: "15%", right: "30%" },
+  { src: "/images/student4.png", top: "20%", right: "15%" },
+  { src: "/images/student5.png", bottom: "30%", left: "15%" },
+  { src: "/images/student6.png", bottom: "40%", left: "35%" },
+  { src: "/images/student7.png", bottom: "35%", right: "25%" },
+  { src: "/images/student8.png", bottom: "25%", right: "10%" },
 ];

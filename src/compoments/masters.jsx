@@ -9,19 +9,24 @@ import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 
 import { courses } from "@/app/dummy";
+import ViewAllButton from "@/shared/viewbtn";
 
 const Masters = () => {
   return (
     <div className="py-12 px-4 md:px-8 lg:px-16 bg-white">
       {/* Header */}
+      <div>
       <div className="flex justify-center items-center mb-6">
         <h2 className="text-2xl md:text-3xl font-semibold text-center flex justify-center md:text-left w-full">
           Master in <span className="text-rose-600">IELTS, TOEFL</span> Exams
         </h2>
-        <button className="p-5">
-          View All <ArrowRight size={16} />
-        </button>
+        <div>
+        <ViewAllButton/>
+        </div>
+     
       </div>
+      </div>
+      
 
       {/* Carousel */}
       <Swiper
